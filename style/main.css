@@ -1,0 +1,128 @@
+body{
+  background-color: rgb(233, 235, 238);
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  margin-top: -15px;
+}
+
+.center{
+  text-align: center;
+}
+
+.title{
+  display: inline-block;
+  height: 100px;
+  margin-left: -48px;
+  padding-left: 40vw;
+}
+
+.title h1{
+  font-family: 'Poiret One', cursive;
+  font-size: 50px;
+
+  padding-left: 135px;
+  margin-left: -20px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  border-bottom: 4px solid #1adf1d;
+  border-left: 4px solid #1adf1d;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 25px;
+  width: 400px;
+  margin-bottom: 14px;
+}
+
+.sub-title{
+  font-family: 'Poiret One', cursive;
+  font-size: 35px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.underline{
+  border-bottom: 2px solid #1adf1d;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.title img{
+  height: auto;
+  width: 100px;
+  margin-top: 18px;
+  display: inline-block;
+  float: left;
+}
+
+.main-container{
+    display: inline-block;
+
+    margin-top: 14px;
+}
+
+.main-left{
+  display: inline-block;
+  width: 40vw;
+  border-right: 3px solid #1adf1d;
+  border-bottom: 3px solid #1adf1d;
+
+  padding-top: 50px;
+  padding-bottom: 30px;
+  float: left;
+  border-bottom-right-radius: 40px;
+
+}
+.main-right{
+  width: 57vw;
+  margin-left: 40vw;
+  padding-top: 50px;
+  border-left: 3px solid #1adf1d;
+  border-bottom: 3px solid #1adf1d;
+  padding-bottom: 30px;
+  border-bottom-left-radius: 40px;
+}
+
+.plant-pic{
+  text-align: center;
+}
+.plant-pic img{
+  padding: 20px;
+  max-width: 40vw;
+  max-height: 300px;
+}
+.plant-info{
+  font-size: 20px;
+}
+
+.plant-stats td{
+  text-align: left;
+  padding: 5px 10px;
+      width: 50%;
+}
+
+.output{
+  padding-left: 30px;
+}
+
+.left-root{
+  height: 30px;
+  border-bottom: 3px solid #1adf1d;
+  border-bottom-right-radius: 30px;
+  border-right: 3px solid #1adf1d;
+  margin-bottom: 30px;
+  margin-right: -3px;
+}
+
+.right-root{
+  height: 30px;
+  border-bottom: 3px solid #1adf1d;
+  border-bottom-left-radius: 30px;
+  border-left: 3px solid #1adf1d;
+  margin-bottom: 30px;
+  margin-left: -3px;
+}
+
+.menu-icon{
+  position: fixed;
+  top: 15px;
+  left: 15px;
+}

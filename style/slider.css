@@ -1,0 +1,58 @@
+.slider-input {
+  width: 60%; /* Width of the outside container */
+}
+
+.slider {
+  -webkit-appearance: none;
+  /* width: 100%; */
+  width: 80%;
+  height: 15px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 1;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #1adf1d;
+  cursor: pointer;
+  /* border: 2px solid black; */
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #1adf1d;;
+  cursor: pointer;
+}
+
+.stats{
+  width: 100%;
+  opacity: 1;
+}
+.stats.slider::-webkit-slider-thumb {
+  background: transparent;
+  border: 2px solid black;
+}
+.stats::-moz-range-thumb {
+  background: transparent;
+  border: 2px solid black;
+}
+
+.health{
+  background-image: linear-gradient(to left, #1adf1d 35%, #945200 );
+}
+.water{
+  background-image: linear-gradient(to left, #0096ff 35%, grey );
+}
+.ph{
+  background-image: linear-gradient(to left, #ff7e79, #9437ff );
+}
