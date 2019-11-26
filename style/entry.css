@@ -1,0 +1,142 @@
+body{
+  background: url("../images/background.jpg") no-repeat fixed center;
+  background-size: cover;
+  background-color: rgb(233, 235, 238);
+  font-family: 'Raleway', sans-serif;
+  color: #1adf1d;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  left: 25%;
+}
+.vertical-center {
+  /* margin: 0; */
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.entry-box{
+  border: 3px solid #1adf1d;
+  border-radius:  30px 0px;
+  background-color: rgba(0,0,0,0.7);
+  padding-bottom: 30px;
+}
+
+.title{
+  font-family: 'Poiret One', cursive;
+  font-size: 40px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr{
+  border: none;
+  border-bottom: 2px solid #1adf1d;
+  max-width: 400px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.options{
+  display: inline;
+  vertical-align: middle;
+}
+.options img{
+  max-height: 100px;
+  vertical-align: middle;
+  padding: 0px 10%;
+
+}
+button{
+  font-size: 30px;
+  font-family: 'Poiret One', cursive;
+  color: #1adf1d;
+  background-color: rgba(0,0,0,0) ;
+  border: 2px solid #1adf1d;
+  padding: 10px 20px;
+  vertical-align: middle;
+  transition: .7s ease;
+}
+button:hover{
+  border-radius:  30px 0px;
+  text-decoration: underline;
+}
+button:active{
+  outline: none;
+}
+button:focus{
+  outline: none;
+}
+button.selected{
+  text-decoration: underline;
+  border-radius:  30px 0px;
+}
+
+.form-input{
+  font-family: 'Poiret One', cursive;
+  border-radius: 20px;
+  height: 30px;
+  border: none;
+  padding: 5px;
+  font-size: 20px;
+  text-align: center;
+  outline: none !important;
+  max-width: 300px;
+  width: 70%;
+  margin: 10px;
+  /* color: #1adf1d; */
+  background-color: rgba(255,255,255,0.9);
+}
+
+.submit-button{
+  font-size: 25px;
+  font-family: 'Poiret One', cursive;
+  color: #1adf1d;
+  background-color: rgba(0,0,0,0) ;
+  border: 2px solid #1adf1d;
+  padding: 10px 20px;
+  vertical-align: middle;
+  transition: .7s ease;
+  margin-top: 15px;
+}
+.submit-button:hover{
+  border-radius:  30px 0px;
+  text-decoration: underline;
+}
+.submit-button:active{
+  outline: none;
+}
+.submit-button:focus{
+  outline: none;
+}
+.submit-button.selected{
+  text-decoration: underline;
+  border-radius:  30px 0px;
+}
+
+.login{
+  transition: 1s ease;
+  overflow: hidden;
+}
+
+.register{
+  transition: 1s ease;
+  overflow: hidden;
+
+}
+
+.hidden{
+  height: 0px;
+}
+.showing-login{
+  height: 200px;
+}
+.showing-register{
+  height: 250px;
+}

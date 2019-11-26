@@ -1,0 +1,134 @@
+.add-friends{
+  text-align: center;
+  width: 100%;
+}
+#newFriendText{
+  display: none;
+}
+.page-title{
+    font-family: 'Poiret One', cursive;
+    font-size: 40px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+
+}
+hr{
+  border: none;
+  border-bottom: 3px solid #1adf1d;
+  max-width: 400px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.submit-button{
+  font-size: 25px;
+  font-family: 'Poiret One', cursive;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.4);
+  border: 3px solid #1adf1d;
+  padding: 10px 20px;
+  vertical-align: middle;
+  transition: .7s ease;
+  margin-top: 15px;
+}
+.submit-button:hover{
+  border-radius:  30px 0px;
+  text-decoration: underline;
+}
+.submit-button:active{
+  outline: none;
+}
+.submit-button:focus{
+  outline: none;
+}
+.submit-button.selected{
+  text-decoration: underline;
+  border-radius:  30px 0px;
+}
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/* STYLES FOR THE FANCY SELECT THINGY */
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+.select-selected{
+  text-align: center;
+}
+.select-items{
+  text-align: center;
+}
+
+/* The container must be positioned relative: */
+.custom-select {
+  position: relative;
+  font-family: Arial;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.custom-select select {
+  display: none; /*hide original SELECT element: */
+}
+
+.select-selected {
+  /* background-color: #1adf1d; */
+  background-color: none;
+  background-color: rgba(255, 255, 255, 0.4);
+
+}
+
+/* Style the arrow inside the select element: */
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 20px;
+  right: 15px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #1adf1d transparent transparent transparent;
+}
+
+/* Point the arrow upwards when the select box is open (active): */
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #1adf1d transparent;
+  top: 12px;
+}
+
+/* style the items (options), including the selected item: */
+.select-items div,.select-selected {
+  color: black;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  border: 3px solid #1adf1d;
+  font-family: 'Raleway', sans-serif;
+  border-radius: 20px 0px 20px 0px ;
+
+
+}
+
+/* Style items (options): */
+.select-items {
+  color: white !important;
+  position: absolute;
+  background-color: rgba(26,223,29,0.95);
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+/* Hide the items when the select box is closed: */
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
